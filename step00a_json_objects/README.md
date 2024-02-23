@@ -22,9 +22,7 @@ Objects are name,value pairs enclosed in curly braces.
 e.g.
 
 ```json
-// Single pair:
 {"name": "Ali"}
-//Multiple pairs:
 {"name": "Ali", "age": 17}
 ```
 
@@ -36,7 +34,7 @@ e.g.
 
 ```json
 {
-	students:[
+	"students":[
 		{"name": "Ali", "age": 17},
 		{"name": "Amir", "age": 16},
 		{"name": "Irtiza", "age": 19}
