@@ -1,1 +1,4 @@
-This is my first typescript program.
+
+# Typescript Basics
+
+This is my practice repositoy for Typescript.
