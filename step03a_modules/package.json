@@ -1,0 +1,11 @@
+{
+  "name": "step03a_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dev-hanzala",
+  "license": "ISC"
+}
