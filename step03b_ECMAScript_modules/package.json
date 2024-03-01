@@ -1,0 +1,12 @@
+{
+  "name": "step03b_ecmascript_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": { 
+    "build": "tsc"
+  },
+  "author": "dev-hanzala",
+  "license": "ISC"
+}
