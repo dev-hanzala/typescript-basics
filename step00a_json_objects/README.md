@@ -1,7 +1,7 @@
 
 # JavaScript Object Notation
 
-JavaScript Object Notation or JSON is a popular way of transferring data. It's used to transfer data between client and server. While. origionally created for JavaScript, JSON can be used by any language. 
+JavaScript Object Notation or JSON is a popular way of transferring data. It's used to transfer data between client and server. While. origionally created for JavaScript, JSON can be used by any language.
 
 ## Name and Value Pairs
 
@@ -13,7 +13,7 @@ e.g.
 {"name": "Ali"}
 ```
 
-## Objects:
+## Objects
 
 Objects are name,value pairs enclosed in curly braces.
 
@@ -26,7 +26,7 @@ e.g.
 {"name": "Ali", "age": 17}
 ```
 
-## Arrays:
+## Arrays
 
 An array is an object with multiple objects in square brackets.
 
@@ -34,10 +34,10 @@ e.g.
 
 ```json
 {
-	"students":[
-		{"name": "Ali", "age": 17},
-		{"name": "Amir", "age": 16},
-		{"name": "Irtiza", "age": 19}
-	]
+   "students":[
+      {"name": "Ali", "age": 17},
+      {"name": "Amir", "age": 16},
+      {"name": "Irtiza", "age": 19}
+   ]
 }
 ```

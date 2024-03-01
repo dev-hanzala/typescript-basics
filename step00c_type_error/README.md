@@ -1,23 +1,20 @@
-# Syntax Error
+# Type Error
 
-		tsc app.ts
+`tsc app.ts`
 
-The Output:
+```pwsh
+D:\typescript-basics\step00c_type_error\app.js:2
+console.loger(message);
+        ^
 
-		app.ts:2:9 - error TS2551: Property 'loger' does not exist on type 'Console'. Did you mean 'log'?
+TypeError: console.loger is not a function
+    at Object.<anonymous> (D:\typescript-basics\step00c_type_error\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
 
-		2 console.loger(message);
-          ~~~~~
-
-  		../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts:17095:5
-    	17095     log(...data: any[]): void;
-              ~~~~~~~~~~~~~~~~~~~~~~~~~~
-    	'log' is declared here.
-
-
-		Found 1 error in app.ts:2
-
-
-
-
-Note that .js file has been generated but it is not valid.
+Node.js v20.11.1
+```

@@ -1,10 +1,8 @@
-If app.ts is compiled:
+# Syntax Error
 
 `tsc app.ts`
 
-Then, it will give a syntax error:
-
-```
+```pwsh
 app.ts:1:1 - error TS1435: Unknown keyword or identifier. Did you mean 'let'?
 
 1 lett message:Srting = "hello world"; //Syntax error
